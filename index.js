@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import connectToDatabase from "./db.js";
 import swagger from "swagger-ui-express";
 import apiDocs from "./swagger.json" assert {type:'json'};
+import cors from 'cors'; 
 
 // Initialize Express server
 const server = express();
@@ -11,6 +12,8 @@ const port = 3002;
 
 // Middleware to parse JSON request bodies
 server.use(bodyParser.json());
+// Enable CORS
+server.use(cors());
 
 // Serve Swagger documentation using Swagger UI
 server.use("/api-docs", 
