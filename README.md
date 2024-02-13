@@ -51,7 +51,7 @@ DB_DATABASE: database_name
    npm start
 ```
 
-The server will start running on `http://localhost:3002`.
+The server will start running on `http://localhost:{port}`.
 
 ## Usage
 
