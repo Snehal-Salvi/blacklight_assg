@@ -60,8 +60,20 @@ You can interact with the API using various HTTP clients like Postman. Additiona
 ## Endpoints
 
 - **GET /leaderboard/current-week**: Retrieve the current week's leaderboard.
+
+```
+https://blacklight-assg.onrender.com/leaderboard/current-week
+```
+
 - **GET /leaderboard/last-week/:country**: Retrieve the last week's leaderboard for a specific country.
+```
+ https://blacklight-assg.onrender.com/leaderboard/last-week/US
+```
 - **GET /user/:userId/rank**: Fetch the rank of a user based on their user ID.
+
+```
+https://blacklight-assg.onrender.com/user/user2/rank
+```
 
 ## Dependencies
 
