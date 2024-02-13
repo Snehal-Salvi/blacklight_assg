@@ -40,9 +40,9 @@ https://github.com/Snehal-Salvi/blacklight_assg
 
 5. Start the server:
 
-   ```
+```
    npm start
-   ```
+```
 
 The server will start running on `http://localhost:3002`.
 
