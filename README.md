@@ -9,7 +9,7 @@ The Leaderboard API is a RESTful web service built using Node.js and Express.js.
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Dependencies](#dependencies)
-- [License](#license)
+- [Authors](#authors)
 
 ## Features
 
