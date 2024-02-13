@@ -30,9 +30,9 @@ https://github.com/Snehal-Salvi/blacklight_assg
 
 3. Install dependencies:
 
-   ```
+```
    npm install
-   ```
+```
 
 4. Set up environment variables:
 
