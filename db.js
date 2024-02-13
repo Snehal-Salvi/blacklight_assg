@@ -7,7 +7,16 @@ function connectToDatabase() {
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
         database: process.env.DB_DATABASE
-      });
+    });
+
+    // Log a message when the connection is established
+    db.connect((err) => {
+        if (err) {
+            console.error('Error connecting to database:', err);
+            return;
+        }
+        console.log('Connected to the database successfully');
+    });
 
     return db; // Return the database connection object
 }

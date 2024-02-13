@@ -110,7 +110,7 @@ server.get('/user/:userId/rank', (req, res) => {
 
 // Root endpoint
 server.get("/", (req, res) => {
-    res.send("Welcome to Leaderboard API. Please look at the documentation on how to use the API at http://localhost:3002/api-docs");
+    res.send("Welcome to Leaderboard API. Please look at the documentation on how to use the API at https://blacklight-assg.onrender.com/api-docs");
 });
 
 // Start the server

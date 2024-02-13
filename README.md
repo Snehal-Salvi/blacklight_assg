@@ -55,7 +55,7 @@ The server will start running on `http://localhost:3002`.
 
 ## Usage
 
-You can interact with the API using various HTTP clients like Postman. Additionally, Swagger UI documentation is available at `http://localhost:3002/api-docs` for exploring and testing the endpoints interactively.
+You can interact with the API using various HTTP clients like Postman. Additionally, Swagger UI documentation is available at `https://blacklight-assg.onrender.com/api-docs` for exploring and testing the endpoints interactively.
 
 ## Endpoints
 
