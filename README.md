@@ -36,7 +36,14 @@ https://github.com/Snehal-Salvi/blacklight_assg
 
 4. Set up environment variables:
 
-   Create an `.env` file in the root directory and define the necessary environment variables, such as database connection details.
+   Create an `.env` file in the root directory and define the necessary environment variables.
+
+```
+DB_HOST: localhost
+DB_USER: username
+DB_PASSWORD: password
+DB_DATABASE: database_name
+```
 
 5. Start the server:
 
