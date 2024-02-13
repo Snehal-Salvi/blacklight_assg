@@ -22,7 +22,11 @@ The Leaderboard API is a RESTful web service built using Node.js and Express.js.
 
 1. Clone the repository:
 
-2. Navigate to the project directory:
+```
+https://github.com/Snehal-Salvi/blacklight_assg
+```
+
+2. Navigate to the project directory.
 
 3. Install dependencies:
 
